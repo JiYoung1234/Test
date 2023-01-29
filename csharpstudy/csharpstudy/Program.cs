@@ -31,7 +31,7 @@ namespace csharpstudy
             System.Console.Write("2");
             System.Console.WriteLine("3");
             System.Console.Write("4");
-            System.Console.WriteLine("5"); 
+            System.Console.WriteLine("5");
             System.Console.Write("6");
             System.Console.WriteLine("7");
             System.Console.Write("8");
@@ -141,20 +141,20 @@ namespace csharpstudy
             System.Console.WriteLine(char.MinValue);
 
             //2. string으로 이름 나이 입력받고, 출력하기
-            string MYname,MYage;
+            string MYname, MYage;
             System.Console.WriteLine("당신의 이름 : ");
-            MYname= System.Console.ReadLine();
+            MYname = System.Console.ReadLine();
             //System.Console.WriteLine("당신의 나이 : ");
             //MYage = System.Console.ReadLine();
 
-            
-             string birthyear;
+
+            string birthyear;
             System.Console.Write("태어난 년도를 입력하세요 : ");
             birthyear = System.Console.ReadLine();
             int myAgenumber = Convert.ToInt32(birthyear);
             string nowage = (2023 - myAgenumber).ToString();
             System.Console.WriteLine(nowage);
-             
+
 
             System.Console.WriteLine("당신의 이름은 {0}이고, 나이는 {1}살입니다.", MYname, nowage);
             //System.Console.WriteLine("당신의 이름은 {0}이고, 나이는 {1}입니다.", MYname, MYage);
@@ -167,7 +167,7 @@ namespace csharpstudy
                             ***** *******
                               *       *
                              *  * * *  *
-                            *           *") ;
+                            *           *");
 
             //4. int값을 float로 캐스팅하기
             // 3.12를 int 값으로 캐스팅하기
@@ -191,7 +191,7 @@ namespace csharpstudy
 
             string NAME;
             System.Console.WriteLine("당신의 이름은 : ");
-            NAME=System.Console.ReadLine();
+            NAME = System.Console.ReadLine();
 
             int abc = NAME.Length;
 
@@ -249,10 +249,16 @@ namespace csharpstudy
             //비어있게 되었다라는 결과값도 출력하라
 
             string[] food = new string[4] { "떡볶이", "김밥", "라면", "라뽁이" };
-            System.Console.WriteLine("원하는 음식 숫자? ");
+            System.Console.Write("원하는 음식 숫자? ");
             string foodnumber;
             foodnumber = System.Console.ReadLine();
-            
+
+            int numberss = Convert.ToInt32(foodnumber);
+
+            food[numberss] = "";
+
+            System.Console.WriteLine($"{food[0]}, {food[1]}, {food[2]}, {food[3]}");
+
         }
     }
 }
