@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\bin\Debug\csharpstudy.exe.config
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\bin\Debug\csharpstudy.exe
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\bin\Debug\csharpstudy.pdb
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\obj\Debug\csharpstudy.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\obj\Debug\csharpstudy.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\obj\Debug\csharpstudy.exe
+C:\Users\admin\Desktop\csharpstudy\csharpstudy\obj\Debug\csharpstudy.pdb
